@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo_alura">
+                <h1><a href="https://www.aluracursos.com"><img class="alura" src="alura.png" alt="Logo alura"></a></h1>
+            </div>
+        </header>
+        <main>
+            <div class="textos">
+                <ul class="boxes">
+                    <li class= "mensaje_user">
+                        <input class="cuadro_texto" id="cuadro_texto" placeholder="Ingrese el texto aquí">
+                        <p class="alerta_caracteres">&#9888; Solo acepta letras minúsculas y sin acentos</p>
+                        <button id="boton_encriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="boton_desencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </li>
+                    <li class="mensaje">
+                        <p class= "texto_modificado" id="texto_modificado"></p>
+                        <img class="munheco"  src="Muñeco.png">
+                        <p class = "sin_texto">Ningún mesaje fue encontrado</p>
+                        <p class="texto_default">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </li>
+                </ul>            
+            </div>  
+        </main>
+        <footer>
+            <ul class="datos_dev">
+                <li>
+                    <a href="https://github.com/MarianaMcFale"><img class="logo-gitHub" src="gitHub-logo1.png" alt="Logo de gitHub"></a>
+                    <a href="https://www.linkedin.com/in/marianamcfale"><img class="logo-linkedIn" src="linkedIn-logo1.png" alt="Logo de linkedIn"></a>
+                    <p class="dev">McFale ~ 2022</p>
+                </li>
+            </ul>
+        </footer>
+     <script src="codificar.js"></script>
+     <script src="decodificar.js"></script>
+     <script src="encriptador.js"></script>
+
+    </body>
+</html>
